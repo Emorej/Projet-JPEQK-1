@@ -1,0 +1,17 @@
+package battue;
+
+import gerer_postes.Poste;
+import gerer_utilisateurs.User;
+
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+
+public class Battue {
+
+	private User chef_battue;
+	private List<User> participants = new ArrayList<>();
+	private List<Poste> postes_occupes = new ArrayList<>();
+	private Date date_battue;
+	
+}

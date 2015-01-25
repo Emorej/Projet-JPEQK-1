@@ -1,0 +1,12 @@
+package battue;
+
+import gerer_utilisateurs.User;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Battue {
+
+	private List<User> participants = new ArrayList<>();
+	private Lis<Postes> postes_occupes = new ArrayList<>();
+}

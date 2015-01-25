@@ -1,0 +1,36 @@
+package gerer_plan_chasse;
+
+import java.util.List;
+import java.util.ArrayList;
+import java.util.Date;
+
+public class PlanDeChasse {
+	
+	private Date date_plan;
+	private List<Gibier> gibiers_preleves = new ArrayList<>();
+	
+	public Date getDate_plan() {
+		return date_plan;
+	}
+	
+	public void setDate_plan(Date date_plan) {
+		this.date_plan = date_plan;
+	}
+	
+	public List<Gibier> getGibiers_preleves() {
+		return gibiers_preleves;
+	}
+	
+	public void setGibiers_preleves(List<Gibier> gibiers_preleves) {
+		this.gibiers_preleves = gibiers_preleves;
+	}
+	
+	public PlanDeChasse(Date date_plan, List<Gibier> gibiers_preleves) {
+		super();
+		this.date_plan = date_plan;
+		this.gibiers_preleves = gibiers_preleves;
+	}
+	
+	
+
+}

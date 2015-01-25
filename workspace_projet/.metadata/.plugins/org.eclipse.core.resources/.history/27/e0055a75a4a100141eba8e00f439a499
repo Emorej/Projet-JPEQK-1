@@ -1,0 +1,13 @@
+package gerer_plan_chasse;
+
+import java.awt.List;
+import java.util.ArrayList;
+import java.util.Date;
+
+public class PlanDeChasse {
+	
+	private Date date_plan;
+	private List<Gibier> gibiers_preleves = new ArrayList<>();
+	
+
+}

@@ -1,0 +1,16 @@
+package gerer_utilisateurs;
+
+public class Admin extends User{
+
+	public void gererCotisations(){
+		// TODO
+	}
+	
+	public void gererBudget(){
+		// TODO
+	}
+	
+	public void gererBattue(){
+		// TODO
+	}
+}

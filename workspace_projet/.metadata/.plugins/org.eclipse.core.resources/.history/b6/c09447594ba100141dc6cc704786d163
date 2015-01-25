@@ -1,0 +1,24 @@
+package gerer_utilisateurs;
+
+import java.util.Date;
+import java.util.GregorianCalendar;
+
+public class User {
+
+	private int id;
+	
+	private String nom; 
+	
+	private String prenom;
+	
+	private Date date_arrivee;
+	
+	private char avoir_cotise; // Juste faire des tests dans le setter
+	
+	private Date date_depart;
+	
+	private String motif_depart;
+	
+	
+	
+}

@@ -1,0 +1,84 @@
+package gerer_utilisateurs;
+
+import java.util.Date;
+import java.util.GregorianCalendar;
+
+public class User {
+
+	private int id;
+	
+	private String nom; 
+	
+	private String prenom;
+	
+	private Date date_arrivee;
+	
+	private char avoir_cotise; 
+	
+	private Date date_depart;
+	
+	private String motif_depart;
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getNom() {
+		return nom;
+	}
+
+	public void setNom(String nom) {
+		this.nom = nom;
+	}
+
+	public String getPrenom() {
+		return prenom;
+	}
+
+	public void setPrenom(String prenom) {
+		this.prenom = prenom;
+	}
+
+	public Date getDate_arrivee() {
+		return date_arrivee;
+	}
+
+	public void setDate_arrivee(Date date_arrivee) {
+		this.date_arrivee = date_arrivee;
+	}
+
+	public char getAvoir_cotise() {
+		return avoir_cotise;
+	}
+
+	public void setAvoir_cotise(char avoir_cotise) {
+		System.out.println("O : oui a cotisé, N : non n'a pas cotisé");
+		if(avoir_cotise == 'O' || avoir_cotise == 'N'){
+			this.avoir_cotise = avoir_cotise;
+		}
+		
+	}
+
+	public Date getDate_depart() {
+		return date_depart;
+	}
+
+	public void setDate_depart(Date date_depart) {
+		this.date_depart = date_depart;
+	}
+
+	public String getMotif_depart() {
+		return motif_depart;
+	}
+
+	public void setMotif_depart(String motif_depart) {
+		this.motif_depart = motif_depart;
+	}
+	
+	
+	
+}

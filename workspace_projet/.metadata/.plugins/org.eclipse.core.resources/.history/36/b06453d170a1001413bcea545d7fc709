@@ -1,0 +1,21 @@
+package gerer_postes;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Secteur {
+	
+	private String nom;
+	private List<Poste> postes = new ArrayList<>();
+	
+	public String getNom() {
+		return nom;
+	}
+	public void setNom(String nom) {
+		this.nom = nom;
+	} 
+	
+	public Secteur(String nom) {
+		this.nom = nom;
+	}
+}

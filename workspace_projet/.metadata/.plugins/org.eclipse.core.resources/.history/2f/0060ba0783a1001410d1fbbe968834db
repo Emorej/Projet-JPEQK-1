@@ -1,0 +1,20 @@
+import gerer_utilisateurs.Role;
+import gerer_utilisateurs.User;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+
+public class Main {
+
+	public static void main(String[] args) throws ParseException {
+		Date bonjour = new SimpleDateFormat("dd/MM/yyyy").parse("31/02/2000");
+		User user = new User(0001, "Lagarrigue", "Eva", bonjour, Role.associé, false);
+		user.payer(user.getRole().getPrix());
+		user.setDate_depart(new SimpleDateFormat("dd/MM/yyyy").parse("21/01/2015"));
+		user.setMotif_depart("décès");
+		System.out.println(user.toString());
+	}
+
+}

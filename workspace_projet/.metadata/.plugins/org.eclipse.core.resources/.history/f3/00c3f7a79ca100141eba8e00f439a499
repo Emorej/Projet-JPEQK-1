@@ -1,0 +1,11 @@
+package gerer_plan_chasse;
+
+public class Gibier {
+
+	private int numero_bague;
+	private String nom;
+	private char sexe;
+	private double poids;
+	private String observations;
+	
+}

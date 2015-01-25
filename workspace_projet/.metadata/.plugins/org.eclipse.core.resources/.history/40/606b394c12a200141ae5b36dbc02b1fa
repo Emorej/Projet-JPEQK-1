@@ -1,0 +1,16 @@
+package gerer_postes;
+
+public class GPS {
+
+	private String latitude;
+	private int degrelatitude;
+	private int minutelatitude;
+	private int secondelatitude;
+	
+	private String longitude;
+	private int degrelongitude;
+	private int minutelongitude;
+	private int secondelongitude;
+	
+	
+}

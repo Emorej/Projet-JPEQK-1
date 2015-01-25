@@ -1,0 +1,6 @@
+package gerer_utilisateurs;
+
+public interface Date {
+
+	public int jour {0, 31}
+}

@@ -1,0 +1,10 @@
+package gerer_utilisateurs;
+
+public enum Role {
+	
+	associé(PRIX_ASSOCIE),
+	propriétaire();
+	
+	public static final int PRIX_ASSOCIE = 300;
+	public static final int PRIX_PROPRIETAIRE = 200;
+}

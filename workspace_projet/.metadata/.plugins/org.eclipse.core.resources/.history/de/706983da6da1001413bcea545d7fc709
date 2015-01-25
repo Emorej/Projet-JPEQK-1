@@ -1,0 +1,7 @@
+package gerer_postes;
+
+public class Poste {
+
+	public String nom; 
+	
+}

@@ -1,0 +1,7 @@
+package gerer_utilisateurs;
+
+public enum Role {
+
+	associé,
+	propriétaire;
+}

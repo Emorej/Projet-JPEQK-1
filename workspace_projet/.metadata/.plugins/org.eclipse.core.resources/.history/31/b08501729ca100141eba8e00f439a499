@@ -1,0 +1,5 @@
+package gerer_plan_chasse;
+
+public class Gibier {
+
+}

@@ -1,0 +1,9 @@
+package gerer_postes;
+
+public class Poste {
+
+	private String numero;
+	private String libelle;
+	private GPS coordonnees;
+	private String observations;
+}

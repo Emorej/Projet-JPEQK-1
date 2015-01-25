@@ -1,0 +1,18 @@
+package gerer_postes;
+
+public class Poste {
+
+	public String nom;
+
+	public String getNom() {
+		return nom;
+	}
+	public void setNom(String nom) {
+		this.nom = nom;
+	} 
+	
+	public Poste(String nom) {
+		super();
+		this.nom = nom;
+	}
+}
